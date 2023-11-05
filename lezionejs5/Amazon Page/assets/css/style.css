@@ -1,0 +1,151 @@
+/* Your styles here */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    width:100%;
+    background-color: #EAEDEE;
+}
+
+header{
+    background-color: #21303F;
+}
+header div img{
+    margin-bottom: 5px;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.menu{
+    background-color:#36485A;
+    font-size: medium;
+    color: white;
+    padding: 5px;
+    padding-left: 30px;
+    word-spacing: 10px;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+header nav a:hover {
+    color: red;
+}
+
+
+hr{
+    display: none;
+}
+
+.contenuto{
+    padding: 20px;
+}
+main div {
+    background-color: #F76501;
+    text-align: center;
+}
+main div p a{
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    
+}
+.orange{
+    padding-bottom: 5px;
+}
+main div p a:hover{
+    color: green;
+}
+.gift-image{
+background-image: url(../images/bg-image.png);
+background-size: 95% 65%;
+padding: 20px;
+margin-top: 20px;
+text-align: center;
+color: white;
+height: 150px;
+}
+.gift-image h1{
+    padding-top: 50px;
+    font-size: xx-large;
+}
+.gift-image h4{
+    font-size: small;
+    padding-top: 8px;
+    
+}
+.findGift{
+    background-color: white;
+    margin-top: 25px;
+}
+.findGift h2{
+    font-size: smaller;
+    text-align: left;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+.findGift h2 a{
+    text-decoration: none;
+    font-size: smaller;
+}
+.photo4{
+    overflow: hidden;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.photo4 img{
+    width: 20%;
+    height: 300px;
+    margin: 10px;
+    border-radius: 15px;
+    display: inline-block;
+    flex: 1;
+    filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.3));
+}
+.aside{
+    padding-top: 25px;
+    background-color: #EAEDEE;
+}
+.aside img{
+    max-width: 100%;
+}
+.aside h2{
+    text-align: center;
+    font-size:large ;
+    padding-top: 0px;
+    margin: 0px;
+}
+.aside2{
+    padding-top: 15px;
+}
+footer{
+    text-align: center;
+    padding-top: 20px;
+}
+footer p{
+    background-color: #36485A;
+    padding-bottom: 3px;
+}
+footer p a{
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
+footer p a:hover{
+    color: red;
+}
+
+footer section{
+    background-color: #213040;
+}
+footer section img{
+    padding-top: 35px;
+    margin-bottom: 20px;
+    width: 170px;
+    size: unset;
+}
